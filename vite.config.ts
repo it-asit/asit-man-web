@@ -4,6 +4,8 @@ import { defineConfig } from 'vite';
 import svgr from 'vite-plugin-svgr';
 
 export default defineConfig({
+  // relative asset paths: works on the custom domain and on it-asit.github.io/asit-man-web/
+  base: './',
   plugins: [
     react(),
     svgr({
