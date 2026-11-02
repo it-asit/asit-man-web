@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 291 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Ebene_1-2" transform="matrix(4.16667,0,0,4.16667,0,-388.688)">
+        <g transform="matrix(0.20463,0,0,0.20463,0,93.285)">
+            <path d="M77.66,0L0,29.93L5.99,116.63L187.89,234.57L341.16,48.35L228.56,22.35L189.88,59.2L77.66,0Z" style="fill:rgb(224,17,116);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(0.20463,0,0,0.20463,0,93.285)">
+            <clipPath id="_clip1">
+                <path d="M0,29.93L5.99,116.63L187.89,234.57L341.16,48.35L228.56,22.35L189.88,59.2L77.66,0L0,29.93Z"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g>
+                    <clipPath id="_clip2">
+                        <path d="M44.906,-118.169L423.065,30.791L296.248,352.735L-81.911,203.774L44.906,-118.169Z"/>
+                    </clipPath>
+                    <g clip-path="url(#_clip2)">
+                        <g transform="matrix(0.251213,0.0989553,-0.0989553,0.251213,44.91,-118.17)">
+                            <use xlink:href="#_Image3" x="0" y="0" width="1527px" height="1300px" transform="matrix(4.33807,0,0,4.34783,0,0)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image3" width="352px" height="299px" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAErAWADASIAAhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAAAAECAwQF/8QAKRABAQACAQMDAwUAAwAAAAAAAAECEQMSITEEQVEiMmETQnGBkRQjM//EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAHBEBAQEBAQEBAQEAAAAAAAAAAAERAhIxIQNB/9oADAMBAAIRAxEAPwD1gAxyZdOFrx139Tl4n9vPUdeJ+IAOgAAACm0AXabEBRAQaxxuV1Ek3dR3xx6ZoS3EmMxnZdNaNDCaNLpdCM6XS6NAmjSroE0aU0ImjTQDOhoBlNNGgYSt6ZsFZWRdNSAkhn9OFvu3HL1F+mQJ+15wEdgUB9EGOXLpwt92nnebmy6s7XJbUR3kwAFAQFEBAAAGsePLLxP7BlrHjyy8Ts7YcWOPnvWxi9MYccx/NbUGU0uhQTRpQRNKKCCgIoAAmWWOP3WQFHK+ox32lqznwvzBcrojnnz4ztj3ccuTLLze3wLObXotnzDt8vMDXh6dLHmls92pyZT3DxXoc+bC5Yyz2bxu8ZVGPleJXTk4splbjNxiyzzKjrLKgA0+i8nqOTeWp4j08lswtnnTxziyzvi/zVcOM+1hHa+ns/dEvBl8wdPUch0/Ry/B+hl8wNjmO04L75LOCe9onqOA9M4cJ7WtTDGeMYHp5ZhlfErpjwW/ddPQDPpzx4scfbf8tqCIKAA1IajLjyc1l1j/AK9Fnbs83Lhrum63zJfrF5s/lP1c5furNFax0/Wzs1tm5ZXzlWJ2aFmG7PFqzl5J+6soJZHWeoznnVX/AJGV8SRxBMjpebkv7v8AHO227vcEUVAVVRRQFFABXp4vsjemeCf9bppXn6+squjQjPRjfOM/xZhjP2z/ABoU1UrSUZYsZ06aTQrGjTek0LrOlXRoERRBAAEtk83Tnycsx7Y9689tt3bsanL2TKZeLtXkwyuN3GsuTK+414emLtywznSvXGL+1PLpa482U1pM89OVtvlZGuef9SoqK1UICsqgICKCAAoqKKKiiioo0ACvV6f7L/Lrpy9N9ldmnm6+oKDKKAKAIhpQGdCgrIt7OWfPjj2n1X8CyWtlee+oyviSOeWeWXnK1GpxXovLh1Sb248vJl1XHxHNrk7zHL5nca8yVhBYKsARs2sukAat3GQoICDIAIAAAAAAKAooCqAjQAsV6vTfZf5dnPgmuP8At0aeXr6ACAAKBbJN3wIM5ZTGbyunLP1En2zf5ebLPLK7yuxucW/XpvqcPiuefqcr9skcNre6OniRcs8s/utrII0ACi5X6cWQSosBUUERQAAoAgAyAgAKIACgKKAooAKoCKLPKLPKwezi/wDPFtMJrCT8K08t+gAAAM8nJMJ3734ebPkyz83t8JllcrbWUdOecNM2NA2wNWJoVAAEBAAAAAAAEBFQBAEVAUAEUUBUAAUUBRUUUARob451ZSMO3p5vkWM9XI9QDTzAAAAPCgiO+Ls2gLiiKIif00AyjR2BkVAAAAAQVBAAAAAFBBQUAQFAUAFFRRQBFHo9LPNed6/TT6Lfy1HP+nx1AVwBQAAR84BHqAAF7ICYvYRQw0CiJpLGkBnRppNAmka0aBk00CMigIKgoAACiooIAAoAAqKKAIo9vDNcc/Lxzy92M1jJ+Go5f0v4qoquIAIAA+cgMvUogKoigCKAu0FTFEAxRATFDabExUNguCKBiAAigAAAAigAAAKAKAIrfHN5yfl7nk9NN8m/h62o4f0v6AK5gAgAD5irnhcMtVlHplUBFAEAAFEBQAFBF0URRBFAEUUQVAAAAEAAAFBABVAAARXq9LPptd3PhnTxx0beXq7QAZAAAAcOTGZ46ryZS43Ve1y5cOubnlHTm48yp4oOqgIAAAAoAgAAKgKogCgigCiIAAACoAoAIqAKKigNYTqykZdvTY75N/BE6uTXqk1NKDTzAAgAACg41mtWJUaceXj6u88uD1uXLhv6oN81xAGwAUAQUQBRFAAFAEAAAAABQAAAAAABAUG+PjueWoJrG3r9NjrG35MvTYXWrZp2xxmOMk8RXPrvZigK5gAgCgAA56Zsb0aFc7GbHXSXFF15eTDXeOT23Byy4PgbnTzjpeLJP08hr1GBroy+E1fgNQAUAAAAVBFURQBAFEUUEUQBAUQABrDG5XUBePC55aj24YTDHUTjwmGOp5921ceutFBWQAQBQAAAARFAQ0oDOjSgM3Fm4OhoVy6E6HXRoNcbxs3j/D0aTQa894p8M3ij1dKdKLteS8SXjr19CdAvqvHcbPZHsvGzeIX28o9F4fwxeGjXuOQ3eLJOjL4F9RkXpvwgugCAAAAosm3t4ePom75rn6fi7dV/p6Bz66/wBVYABAABQAAAABBUAAAAAAAABBQEFAQ0oCaTTQDOjpaAY6U6I6aTQrneOM3inw7aNBrz3hnwxeB69JpF2vHeGxzuGU9n0OmM3jlF9V4HThw6s5HovBK3x8U4+870X3+NyamhRWAAQAABQAAAAAAAAAAAAAAAAAAQUBBQEFAQUBBQEFQAVAAAAAAAAUEFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/Z"/>
+    </defs>
+</svg>

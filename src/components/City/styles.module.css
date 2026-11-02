@@ -1,0 +1,5 @@
+.container {
+  width: auto;
+  height: var(--city-svg-size);
+  display: block;
+}

@@ -1,0 +1,287 @@
+.container {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  position: absolute;
+  bottom: var(--light-svg-bottom-position);
+  left: 50%;
+
+  height: var(--light-svg-height);
+  width: var(--base-width);
+  /* Unified animation for both triangle and logo */
+  animation: spotlightScan var(--spotlight-animation-duration)
+    var(--spotlight-animation-timing) var(--spotlight-animation-iteration);
+  animation-delay: var(--spotlight-animation-delay);
+  transform-origin: bottom center;
+  will-change: transform;
+
+  /* Rotation multiplier - can be adjusted */
+  --rotation-multiplier: 1;
+
+  /* Base rotation values for triangle/light (numeric, without unit) */
+  --rotation-0: -4;
+  --rotation-20: 12;
+  --rotation-25: 12;
+  --rotation-40: -8;
+  --rotation-45: -8;
+  --rotation-60: 4;
+  --rotation-65: 4;
+  --rotation-80: -4;
+  --rotation-85: -4;
+  --rotation-95: -4;
+  --rotation-100: -4;
+
+  /* Base rotation values for logo (numeric, without unit) */
+  /* Default to 0 on mobile - will be overridden on desktop */
+  --logo-rotation-0: 0;
+  --logo-rotation-20: 0;
+  --logo-rotation-25: 0;
+  --logo-rotation-40: 0;
+  --logo-rotation-45: 0;
+  --logo-rotation-60: 0;
+  --logo-rotation-65: 0;
+  --logo-rotation-80: 0;
+  --logo-rotation-85: 0;
+  --logo-rotation-95: 0;
+  --logo-rotation-100: 0;
+
+  /* Base height values for spotlight animation */
+  --height-0: 50vh;
+  --height-20: 45vh;
+  --height-25: 45vh;
+  --height-40: 50vh;
+  --height-45: 50vh;
+  --height-60: 20vh;
+  --height-65: 20vh;
+  --height-80: 50vh;
+  --height-85: 50vh;
+  --height-95: 50vh;
+  --height-100: 50vh;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  transform: translate3d(-50%, -50%, 0) scale3d(1.2, 1.2, 1);
+  transform-origin: center center;
+  will-change: transform;
+
+  z-index: 2;
+
+  /* Always run animation to stay synchronized, even on mobile */
+  /* On mobile, logo rotation values are 0, so no visible effect */
+  animation: logoRotation var(--spotlight-animation-duration)
+    var(--spotlight-animation-timing) var(--spotlight-animation-iteration);
+  animation-delay: var(--spotlight-animation-delay);
+}
+
+@keyframes spotlightScan {
+  0% {
+    transform: translate3d(-50%, 0, 0)
+      rotate3d(
+        0,
+        0,
+        1,
+        calc(var(--rotation-0) * var(--rotation-multiplier) * 1deg)
+      );
+    height: var(--height-0);
+    /* width: 15vh; */
+  }
+  20% {
+    transform: translate3d(-50%, 0, 0)
+      rotate3d(
+        0,
+        0,
+        1,
+        calc(var(--rotation-20) * var(--rotation-multiplier) * 1deg)
+      );
+    height: var(--height-20);
+    /* width: 10vh; */
+  }
+  25% {
+    transform: translate3d(-50%, 0, 0)
+      rotate3d(
+        0,
+        0,
+        1,
+        calc(var(--rotation-25) * var(--rotation-multiplier) * 1deg)
+      );
+    height: var(--height-25);
+    /* width: 10vh; */
+  }
+  40% {
+    transform: translate3d(-50%, 0, 0)
+      rotate3d(
+        0,
+        0,
+        1,
+        calc(var(--rotation-40) * var(--rotation-multiplier) * 1deg)
+      );
+    height: var(--height-40);
+    /* width: 20vh; */
+  }
+  45% {
+    transform: translate3d(-50%, 0, 0)
+      rotate3d(
+        0,
+        0,
+        1,
+        calc(var(--rotation-45) * var(--rotation-multiplier) * 1deg)
+      );
+    height: var(--height-45);
+    /* width: 20vh; */
+  }
+  60% {
+    transform: translate3d(-50%, 0, 0)
+      rotate3d(
+        0,
+        0,
+        1,
+        calc(var(--rotation-60) * var(--rotation-multiplier) * 1deg)
+      );
+    height: var(--height-60);
+    /* width: 10vh; */
+  }
+  65% {
+    transform: translate3d(-50%, 0, 0)
+      rotate3d(
+        0,
+        0,
+        1,
+        calc(var(--rotation-65) * var(--rotation-multiplier) * 1deg)
+      );
+    height: var(--height-65);
+    /* width: 10vh; */
+  }
+  80% {
+    transform: translate3d(-50%, 0, 0)
+      rotate3d(
+        0,
+        0,
+        1,
+        calc(var(--rotation-80) * var(--rotation-multiplier) * 1deg)
+      );
+    height: var(--height-80);
+    /* width: 5vh; */
+  }
+  85% {
+    transform: translate3d(-50%, 0, 0)
+      rotate3d(
+        0,
+        0,
+        1,
+        calc(var(--rotation-85) * var(--rotation-multiplier) * 1deg)
+      );
+    height: var(--height-85);
+    /* width: 5vh; */
+  }
+  95% {
+    transform: translate3d(-50%, 0, 0)
+      rotate3d(
+        0,
+        0,
+        1,
+        calc(var(--rotation-95) * var(--rotation-multiplier) * 1deg)
+      );
+    height: var(--height-95);
+    /* width: 15vh; */
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0)
+      rotate3d(
+        0,
+        0,
+        1,
+        calc(var(--rotation-100) * var(--rotation-multiplier) * 1deg)
+      );
+    height: var(--height-100);
+    /* width: 15vh; */
+  }
+}
+
+@keyframes logoRotation {
+  0% {
+    transform: translate3d(-50%, -50%, 0) scale3d(1.2, 1.2, 1)
+      rotate3d(0, 0, 1, calc(var(--logo-rotation-0) * 1deg));
+  }
+  20% {
+    transform: translate3d(-50%, -50%, 0) scale3d(1.2, 1.2, 1)
+      rotate3d(0, 0, 1, calc(var(--logo-rotation-20) * 1deg));
+  }
+  25% {
+    transform: translate3d(-50%, -50%, 0) scale3d(1.2, 1.2, 1)
+      rotate3d(0, 0, 1, calc(var(--logo-rotation-25) * 1deg));
+  }
+  40% {
+    transform: translate3d(-50%, -50%, 0) scale3d(1.2, 1.2, 1)
+      rotate3d(0, 0, 1, calc(var(--logo-rotation-40) * 1deg));
+  }
+  45% {
+    transform: translate3d(-50%, -50%, 0) scale3d(1.2, 1.2, 1)
+      rotate3d(0, 0, 1, calc(var(--logo-rotation-45) * 1deg));
+  }
+  60% {
+    transform: translate3d(-50%, -50%, 0) scale3d(1.2, 1.2, 1)
+      rotate3d(0, 0, 1, calc(var(--logo-rotation-60) * 1deg));
+  }
+  65% {
+    transform: translate3d(-50%, -50%, 0) scale3d(1.2, 1.2, 1)
+      rotate3d(0, 0, 1, calc(var(--logo-rotation-65) * 1deg));
+  }
+  80% {
+    transform: translate3d(-50%, -50%, 0) scale3d(1.2, 1.2, 1)
+      rotate3d(0, 0, 1, calc(var(--logo-rotation-80) * 1deg));
+  }
+  85% {
+    transform: translate3d(-50%, -50%, 0) scale3d(1.2, 1.2, 1)
+      rotate3d(0, 0, 1, calc(var(--logo-rotation-85) * 1deg));
+  }
+  95% {
+    transform: translate3d(-50%, -50%, 0) scale3d(1.2, 1.2, 1)
+      rotate3d(0, 0, 1, calc(var(--logo-rotation-95) * 1deg));
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) scale3d(1.2, 1.2, 1)
+      rotate3d(0, 0, 1, calc(var(--logo-rotation-100) * 1deg));
+  }
+}
+
+@media (min-width: 1024px) {
+  .content {
+    --rotation-multiplier: 6;
+
+    /* Logo rotation values for desktop */
+    --logo-rotation-0: 0;
+    --logo-rotation-20: -40;
+    --logo-rotation-25: -40;
+    --logo-rotation-40: 20;
+    --logo-rotation-45: 20;
+    --logo-rotation-60: -10;
+    --logo-rotation-65: -10;
+    --logo-rotation-80: 0;
+    --logo-rotation-85: 0;
+    --logo-rotation-95: 0;
+    --logo-rotation-100: 0;
+
+    /* Height values for desktop (can be adjusted as needed) */
+    --height-0: 50vh;
+    --height-20: 45vh;
+    --height-25: 45vh;
+    --height-40: 65vh;
+    --height-45: 65vh;
+    --height-60: 20vh;
+    --height-65: 20vh;
+    --height-80: 80vh;
+    --height-85: 80vh;
+    --height-95: 50vh;
+    --height-100: 50vh;
+  }
+}

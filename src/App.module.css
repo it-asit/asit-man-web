@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+
+  padding: var(--outer-padding);
+}
+
+.animatedBackground {
+  animation: colorCycle 10s ease-in-out infinite;
+}
+
+@keyframes colorCycle {
+  0% {
+    background-color: #f499c2;
+  }
+  20% {
+    background-color: #5cac5e;
+  }
+  25% {
+    background-color: #5cac5e;
+  }
+  40% {
+    background-color: #fcf311;
+  }
+  45% {
+    background-color: #fcf311;
+  }
+  60% {
+    background-color: #322d88;
+  }
+  65% {
+    background-color: #322d88;
+  }
+  80% {
+    background-color: #e27b30;
+  }
+  85% {
+    background-color: #e27b30;
+  }
+  95% {
+    background-color: #f499c2;
+  }
+  100% {
+    background-color: #f499c2;
+  }
+}
